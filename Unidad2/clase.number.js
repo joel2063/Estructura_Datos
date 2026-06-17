@@ -1,38 +1,28 @@
-//Tipos de datos numéricos
-// entero y decimal
+// Tipos de datos numéricos
+const entero = 42;
+const decimal = 3.14;
 
-const entero = 42
-const decimal = 3.14
-console.log(typeof entero, typeof decimal)
+console.log(typeof entero, typeof decimal);
 
-//Notación científica
-const científico = 5e3
+// Operaciones aritméticas
+const suma = 3 + 5;
+const resta = 10-3;
+const multiplicacion = 4 * 7;
+const division = 10 / 2;
 
-//Representación de otros contextos.
-const infinito = Infinity
-const noEsUnNumero = NaN
+// Mostrar en consola
+console.log("Suma:", suma);
+console.log("Resta:", resta);
+console.log("Multiplicación:", multiplicacion);
+console.log("División:", division);
 
-//Operaciones Aritmeticas
-
-//Sumas Restas
-
-const suma = 3+4
-const resta = 4-4
-const multiplicacion = 4*7
-const division = 10/2
-
-//Modulos de exponenciación
-const modulo = 15 % 8
-
-//Resultado de presicion
-const exponenciacion = 0.1 + 0.2
-console.log(exponenciacion)
-console.log(exponenciacion.toFixed(1))
-
-const raizcuadrada = Math.sqrt(16)
-const valorAbsoluto = Math.abs(-7)
-const aleatorio = Math.random()
-console.log(raizcuadrada)
-console.log(valorAbsoluto)
-console.log(aleatorio)
-
+// Mostrar en la página HTML
+document.getElementById("resultado").innerHTML = `
+    <h2>Operaciones Numéricas</h2>
+    <p><strong>Entero:</strong> ${entero}</p>
+    <p><strong>Decimal:</strong> ${decimal}</p>
+    <p><strong>Suma:</strong> ${suma}</p>
+    <p><strong>Resta:</strong> ${resta}</p>
+    <p><strong>Multiplicación:</strong> ${multiplicacion}</p>
+    <p><strong>División:</strong> ${division}</p>
+`;

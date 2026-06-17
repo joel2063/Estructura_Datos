@@ -1,0 +1,55 @@
+// Condicionales 
+
+// 1. If 
+if (5 > 3) {
+  console.log("5 es mayor que 3");
+}
+
+// 2. If - Else
+let edad = 18;
+if (edad >= 18) {
+  console.log("Eres mayor de edad");
+} else {
+  console.log("Eres menor de edad");
+}
+
+// 3. If - Else if - Else
+//Es una estructura condicional que permite
+//evaluar varias condiciones de forma secuencial.
+let calificacion = 75;
+if (calificacion >= 90) {
+  console.log("A");
+} else if (calificacion >= 80) {
+  console.log("B");
+} else if (calificacion >= 70) {
+  console.log("C");
+} else {
+  console.log("F");
+}
+
+// 4. Operador ternario
+//El operador ternario es una forma abreviada de escribir un if-else.
+//pero esta destaca por escribir condiciones simples de manera 
+//más compacta y legible.
+let resultado = edad >= 18 ? "Mayor de edad" : "Menor de edad";
+console.log(resultado);
+
+// 5. Switch
+//permite seleccionar una opción entre varios 
+//casos posibles según el valor de una variable.
+
+let dia = 3;
+switch (dia) {
+  case 1:
+    console.log("Lunes");
+    break;
+  case 2:
+    console.log("Martes");
+    break;
+  case 3:
+    console.log("Miércoles");
+    break;
+  default:
+    console.log("Día inválido");
+}
+
