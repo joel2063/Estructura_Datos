@@ -110,7 +110,7 @@ public class Main {
                 ((double) tiempoLineal - tiempoBinaria)
                         / tiempoLineal * 100;
 
-        System.out.printf(
+        System.out.printf(      
                 "Mejora de la busqueda binaria: %.2f%%%n",
                 mejora);
 
